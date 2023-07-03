@@ -13,6 +13,10 @@
 
         pip install -r req.txt
 
+<li> Создать .env файл с конфигурацией БД с прфиксом "POSTGRESQL_". Например:
+
+        POSTGRESQL_DSN = "postgresql+asyncpg://postgres:postgres@localhost:5432/parser"
+
 <li> Запустить скрипт
 
         python3 -m main
